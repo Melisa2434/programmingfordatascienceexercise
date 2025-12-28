@@ -1,3 +1,5 @@
+import os
+os.system("pip install matplotlib pandas numpy seaborn scikit-learn Pillow")
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -121,4 +123,5 @@ elif app_mode == "Boyut İndirgeme & ML":
             model = RandomForestClassifier().fit(X_train, y_train)
             st.success(f"Model Eğitildi! Skor: {model.score(X_test, y_test):.2f}")
             st.text("Rapor:")
+
             st.text(classification_report(y_test, model.predict(X_test)))
