@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Dec 28 11:46:58 2025
+
+@author: melis
+"""
+
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+Pillow
